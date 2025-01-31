@@ -31,6 +31,7 @@ A centered form with rounded corners, padding, and subtle shadows for a professi
 Insights displayed in colorful, styled list items for easy readability.
 
 ---->Possible Use Cases:
+
 Health and Fitness Tracking:Users can log their menstrual cycle and health metrics to optimize their workout routines, diet, and daily activities.
 
 Medical Support:This could assist users in identifying patterns that may be useful for medical consultations (e.g., irregular cycles, low hydration).
@@ -38,6 +39,7 @@ Medical Support:This could assist users in identifying patterns that may be usef
 Wellness Insights:Helps users understand how their daily behaviors impact their overall health and well-being.
 
 ---->Next Steps for Improvement:
+
 Add a Dashboard:
 A page showing historical cycle data and trends with graphs and charts.
 
