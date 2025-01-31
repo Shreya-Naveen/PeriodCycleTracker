@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Menstrual Tracker</title>
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'css/styles.css' %}">
+</head>
+<body>
+    <div class="container">
+        <h1>Menstrual Cycle Tracker</h1>
+        <form method="post">
+            {% csrf_token %}
+            <h2>Menstrual Tracking</h2>
+            {{ menstrual_form.as_p }}
+
+            <h2>Symptom Tracking</h2>
+            {{ symptom_form.as_p }}
+
+            <button type="submit">Submit</button>
+        </form>
+
+        {% if next_period_date %}
+            <h3>Your next predicted period date is: {{ next_period_date }}</h3>
+        {% endif %}
+    </div>
+</body>
+</html>
